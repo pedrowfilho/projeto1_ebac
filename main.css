@@ -24,8 +24,8 @@ body, input, textarea {
 
 header {
     padding: 16px 0;
-    background-color: green;
-    color: #fff;
+    background-color: #242331;
+    color: #ddca7d;
 }
 
 header nav li {
@@ -35,8 +35,9 @@ header nav li {
 }
 
 header li a {
-    color: #fff;
+    color: #ddca7d;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .container {
@@ -64,6 +65,7 @@ section .container {
 
 section {
     padding: 24px 0;
+    background-color: #ddca7d;
 }
 
 section h2 {
@@ -71,7 +73,7 @@ section h2 {
 }
 
 section {
-    color: green;
+    color: #000;
 }
 
 section p {
@@ -127,24 +129,24 @@ section h3 {
 }
 
 form button {
-    background-color: green;
-    color: #fff;
+    background-color: #242331;
+    color: #f3f9e3;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: rgb(24, 175, 24);
+    background-color: #3b3950;
 }
 
 input:focus, textarea:focus {
-    outline-color: green
+    outline-color: #242331
 }
 
 /*--------------------------footer-------------------------*/
 
 footer {
-    background-color: green;
-    color: #fff;
+    background-color: #242331;
+    color: #ddca7d;
     padding: 16px 0;
 }
